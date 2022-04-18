@@ -36,15 +36,5 @@ namespace BOLayer
                 throw new Exception("Card Doesn't exist in hand");
             }
         }
-
-        private int HandCount()
-        {
-            return hand.Count;
-        }
-
-        public void Play(Card card)
-        {
-
-        }
     }
 }
